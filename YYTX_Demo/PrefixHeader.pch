@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  YYTX_Demo
+//
+//  Created by pc37 on 2017/9/26.
+//  Copyright © 2017年 Zhiwu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <FMDB.h>
+#import <UIView+Toast.h>
+#import "UIButton+EnlargeEdge.h"
+#import "WSDatePickerView.h"
+#import "CZPickerView.h"
+#import "LzwCustomPickView.h"
+#import "LzwRootModel.h"
+#import "ColumnPropertyMappingDelegate.h"
+#import "DataBaseTool.h"
+#import "LzwLocalNoticeModelDBTool.h"
+#import "NSString+XHDateFormat.h"
+
+#define Lzw_WIDTH          [UIScreen mainScreen].bounds.size.width
+#define Lzw_HEIGHT         [UIScreen mainScreen].bounds.size.height
+//用10进制表示颜色，例如（255,255,255）白色
+#define LzwColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */

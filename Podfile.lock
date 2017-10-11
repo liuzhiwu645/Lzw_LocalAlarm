@@ -1,0 +1,20 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.2)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - FMDB (~> 2.6.2)
+  - Masonry (~> 1.0.2)
+  - Toast (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 03bed09536084c4147a89c3346a0fbf4c9812ea7
+
+COCOAPODS: 1.2.0
